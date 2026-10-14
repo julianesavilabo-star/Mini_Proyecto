@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="contenedor">
+        <h1>💣 Buscaminas</h1>
+        <p class="descripcion">
+            Encuentra todas las casillas seguras sin explotar una mina.
+        </p>
+
+        <section class="informacion">
+            <span>💣 Minas: <strong id="minas">10</strong></span>
+            <span id="estado">¡Buena suerte!</span>
+        </section>
+
+        <div id="tablero" class="tablero"></div>
+
+        <button id="reiniciar">🔄 Nueva partida</button>
+
+        <p class="instrucciones">
+            Clic izquierdo: descubrir casilla.<br>
+            Clic derecho: colocar o quitar bandera 🚩.
+        </p>
+    </main>
+</body>
+</html>
